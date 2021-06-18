@@ -3,11 +3,3 @@ os: linux
 files:
    - source: /
      destination: /home/bitnami/apps/wordpress/htdocs
-permissions:
-   - object: /home/bitnami/apps/wordpress/htdocs
-     pattern: "**"
-     owner: apache
-     group: apache
-     mode: 755
-     type:
-       - file
